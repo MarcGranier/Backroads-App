@@ -1,12 +1,11 @@
-
-const Title = ((title, subTitle)) => {
-  return (
+const Title = ({ title, subTitle }) => {
+	return (
 		<div class='section-title'>
 			<h2>
-				about <span>us</span>
+				{title} <span>{subTitle}</span>
 			</h2>
 		</div>
 	);
-}
+};
 
-export default Title
+export default Title;
